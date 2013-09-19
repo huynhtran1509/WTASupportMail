@@ -1,0 +1,46 @@
+/* 
+  SupportMail.strings
+  Thrillcall
+
+  Created by Matt Jones on 9/19/13.
+  Copyright (c) 2013 316 Ventures. All rights reserved.
+*/
+
+/* Application version summary label */
+"SMLabelAppVersion" = "App Version";
+
+/* Application name summary label */
+"SMLabelAppName" = "App Name";
+
+/* Device model summary label */
+"SMLabelDeviceModel" = "Model";
+
+/* System version summary label */
+"SMLabelSystemVersion" = "System Version";
+
+/* Mail sent successful alert title */
+"SMAlertTitleMailSent" = "Mail Sent";
+
+/* Mail sent successful alert message */
+"SMAlertMessageMailSent" = "Your support message was sent successfully.";
+
+/* Mail sent successful alert cancel button title */
+"SMAlertCancelButtonTitleMailSent" = "OK";
+
+/* Mail failure alert title */
+"SMAlertTitleMailFail" = "Mail Send Failed";
+
+/* Mail failure alert message */
+"SMAlertMessageMailFail" = "An error occurred while trying to send your support message. Please try again later.";
+
+/* Mail failure alert cancel button title */
+"SMAlertCancelButtonTitleMailFail" = "OK";
+
+/* Mail unsupported alert title */
+"SMAlertTitleMailUnsupported" = "Unable to Email";
+
+/* Mail unsupported alert message */
+"SMAlertMessageMailUnsupported" = "It appears your device does not support email.";
+
+/* Mail unsupported alert cancel button title */
+"SMAlertCancelButtonTitleMailUnsupported" = "OK";
