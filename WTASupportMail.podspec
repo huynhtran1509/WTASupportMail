@@ -36,14 +36,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   }
 
   s.author       = { "Matt Jones" => "matt.jones@willowtreeapps.com" }
-
   s.platform     = :ios, '6.0'
-
   s.source       = { :git => "https://github.com/willowtreeapps/supportmail.git", :tag => "1.0" }
-
-  s.source_files  = 'source'
-
+  s.source_files  = 'source/**/*.{h,m}'
   s.resource  = "resources/SupportMail.strings"
-
   s.framework  = 'MessageUI'
+  s.requires_arc = true
 end
