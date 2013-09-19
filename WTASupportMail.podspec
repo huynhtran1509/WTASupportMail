@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "supportmail"
+  s.name         = "WTASupportMail"
   s.version      = "1.0"
   s.summary      = "Used for emailing a support email address."
 
