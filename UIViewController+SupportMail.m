@@ -3,7 +3,7 @@
 //  Thrillcall
 //
 //  Created by Matt Jones on 9/19/13.
-//  Copyright (c) 2013 316 Ventures. All rights reserved.
+//  Copyright (c) 2013 Willow Tree Apps. All rights reserved.
 //
 
 #import "UIViewController+SupportMail.h"
