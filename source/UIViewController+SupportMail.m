@@ -73,10 +73,19 @@ static NSString * const MAIL_UNSUPPORTED_CANCEL_BUTTON_COMMENT = @"Mail unsuppor
 
 - (void)presentMailComposeViewControllerToEmail:(NSString *)email
                                        animated:(BOOL)animated {
+    [self presentMailComposeViewControllerToEmail:email
+                                      withSubject:@""
+                                         animated:animated];
+}
+
+- (void)presentMailComposeViewControllerToEmail:(NSString *)email
+                                    withSubject:(NSString *)subject
+                                       animated:(BOOL)animated {
     if ([MFMailComposeViewController canSendMail]) {
         MFMailComposeViewController *vc = [MFMailComposeViewController new];
         vc.mailComposeDelegate = self;
         [vc setToRecipients:@[email]];
+        [vc setSubject:subject];
         [vc setMessageBody:[self deviceSummaryMessage] isHTML:YES];
         [self presentViewController:vc animated:animated completion:NULL];
     } else {
